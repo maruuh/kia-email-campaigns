@@ -1,0 +1,880 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- So that mobile will display zoomed in -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- enable media queries for windows phone 8 -->
+        <meta name="format-detection" content="telephone=no">
+        <!-- disable auto telephone linking in iOS -->
+    
+        <meta name="color-scheme" content="light dark">
+        <meta name="supported-color-schemes" content="light dark">
+        
+        <title>EV6 Roadshow</title>
+        
+        <style>
+            @font-face{font-family: KiaB; font-weight:normal; font-style: normal; src: url('http://img.europe-crm.net/KMUK/VCCP/global/fonts/kia_bold.eot'); src: url('http://img.europe-crm.net/KMUK/VCCP/global/fonts/kia_bold.eot?#iefix') format('embedded-opentype'), url('http://img.europe-crm.net/KMUK/VCCP/global/fonts/kia_bold.woff2') format('woff2'), url('http://img.europe-crm.net/KMUK/VCCP/global/fonts/kia_bold.woff') format('woff'), url('http://img.europe-crm.net/KMUK/VCCP/global/fonts/kia_bold.ttf') format('truetype')}
+            @font-face{font-family: KiaM; font-weight:normal; font-style: normal; src: url('http://img.europe-crm.net/KMUK/VCCP/global/fonts/kia_medium.eot'); src: url('http://img.europe-crm.net/KMUK/VCCP/global/fonts/kia_medium.eot?#iefix') format('embedded-opentype'), url('http://img.europe-crm.net/KMUK/VCCP/global/fonts/kia_medium.woff2') format('woff2'), url('http://img.europe-crm.net/KMUK/VCCP/global/fonts/kia_medium.woff') format('woff'), url('http://img.europe-crm.net/KMUK/VCCP/global/fonts/kia_medium.ttf') format('truetype')}
+            
+            body {
+                margin: 0 !important;
+                padding: 0 !important;
+                -webkit-text-size-adjust: 100% !important;
+                -ms-text-size-adjust: 100% !important;
+                -webkit-font-smoothing: antialiased !important;
+                font-family: Arial, sans-serif;
+            }
+
+            img {
+                border: 0 !important;
+                outline: none !important;
+            }
+
+            p {
+                margin: 0 !important;
+                padding: 0 !important;
+            }
+
+            table {
+                border-collapse: collapse;
+            }
+
+            table, td {
+                mso-table-lspace: 0 !important;
+                mso-table-rspace: 0 !important;
+                mso-line-height-rule: exactly !important;
+                mso-margin-bottom-alt: 0 !important;
+                mso-margin-top-alt: 0 !important;
+            }
+
+            td, a, span {
+                border-collapse: collapse;
+                mso-line-height-rule: exactly;
+            }
+
+            img td, div {
+                line-height: normal;
+            }
+
+            .ExternalClass * {
+                line-height: 100%;
+            }
+
+            input {
+                display: none !important;
+            }
+
+            div .inn a:hover {
+                color: #cccccc !important;
+            }
+
+            .show-on-desktop {
+                display: block !important;
+                max-height: none !important;
+            }
+
+            .hide-on-desktop {
+                display: none !important;
+                max-height: 0 !important;
+                overflow: hidden !important;
+            }
+
+            .hidden {
+                display: none !important;
+                max-height: 0 !important;
+                overflow: hidden !important;
+                mso-hide: all !important;
+            }
+
+            .preheader { display:none !important; visibility:hidden; opacity:0; color:transparent; height:0; width:0; }
+
+            @media screen and (max-width: 599px) {
+                .show-on-desktop {
+                    display: none !important;
+                    max-height: 0 !important;
+                    overflow: hidden !important;
+                }
+
+                .hide-on-desktop {
+                    display: block !important;
+                    max-height: none !important;
+                }
+
+                table.wrapper {
+                    width: 100% !important;
+                }
+
+                /* global left and right padding for all modules */
+                table.wrapper .desktop-padding {
+                    width: 15px !important;
+                }
+
+                /* global left and right padding for image module ONLY */
+                table.wrapper .desktop-padding-image {
+                    width: 0 !important;
+                }
+
+                td.mobile-block {
+                    display: block !important;
+                    width: 100% !important;
+                }
+
+                td.mobile-paddingx-0 {
+                    padding-left: 0 !important;
+                    padding-right: 0 !important;
+                }
+
+                td.content__in {
+                    padding-left: 20px !important;
+                    padding-right: 20px !important;
+                }
+
+                td.social-icons {
+                    text-align: left !important;
+                }
+
+                td.social-icons__inner {
+                    padding-left: 10px !important;
+                }
+            }
+
+            .mj-carousel {
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                user-select: none;
+            }
+
+            .mj-carousel-icons-cell {
+                display: table-cell !important;
+                width: 31px !important;
+            }
+
+            .mj-carousel-radio,
+            .mj-carousel-next,
+            .mj-carousel-previous {
+                display: none !important;
+            }
+
+            .mj-carousel-thumbnail,
+            .mj-carousel-next,
+            .mj-carousel-previous {
+                touch-action: manipulation;
+            }
+
+            .mj-carousel-radio:checked+.mj-carousel-content .mj-carousel-image,
+            .mj-carousel-radio:checked+*+.mj-carousel-content .mj-carousel-image,
+            .mj-carousel-radio:checked+*+*+.mj-carousel-content .mj-carousel-image {
+                display: none !important;
+            }
+
+            .mj-carousel-radio-1:checked+*+*+.mj-carousel-content .mj-carousel-image-1,
+            .mj-carousel-radio-2:checked+*+.mj-carousel-content .mj-carousel-image-2,
+            .mj-carousel-radio-3:checked+.mj-carousel-content .mj-carousel-image-3 {
+                display: block !important;
+            }
+
+            .mj-carousel-previous-icons,
+            .mj-carousel-next-icons,
+            .mj-carousel-radio-1:checked+*+*+.mj-carousel-content .mj-carousel-next-2,
+            .mj-carousel-radio-2:checked+*+.mj-carousel-content .mj-carousel-next-3,
+            .mj-carousel-radio-3:checked+.mj-carousel-content .mj-carousel-next-1,
+            .mj-carousel-radio-1:checked+*+*+.mj-carousel-content .mj-carousel-previous-3,
+            .mj-carousel-radio-2:checked+*+.mj-carousel-content .mj-carousel-previous-1,
+            .mj-carousel-radio-3:checked+.mj-carousel-content .mj-carousel-previous-2 {
+                display: block !important;
+            }
+
+            .mj-carousel-radio-1:checked+*+*+.mj-carousel-content .mj-carousel-thumbnail-1,
+            .mj-carousel-radio-2:checked+*+.mj-carousel-content .mj-carousel-thumbnail-2,
+            .mj-carousel-radio-3:checked+.mj-carousel-content .mj-carousel-thumbnail-3 {
+                border-color: #cccccc !important;
+            }
+
+            .mj-carousel-image img+div,
+            .mj-carousel-thumbnail img+div {
+                display: none !important;
+            }
+
+            .mj-carousel-thumbnail:hover+*+*+.mj-carousel-main .mj-carousel-image,
+            .mj-carousel-thumbnail:hover+*+.mj-carousel-main .mj-carousel-image,
+            .mj-carousel-thumbnail:hover+.mj-carousel-main .mj-carousel-image {
+                display: none !important;
+            }
+
+            .mj-carousel-thumbnail:hover {
+                border-color: #fead0d !important;
+            }
+
+            .mj-carousel-thumbnail-1:hover+*+*+.mj-carousel-main .mj-carousel-image-1,
+            .mj-carousel-thumbnail-2:hover+*+.mj-carousel-main .mj-carousel-image-2,
+            .mj-carousel-thumbnail-3:hover+.mj-carousel-main .mj-carousel-image-3 {
+                display: block !important;
+            }
+
+
+            .mj-carousel noinput {
+                display: block !important;
+            }
+
+            .mj-carousel noinput .mj-carousel-image-1 {
+                display: block !important;
+            }
+
+            .mj-carousel noinput .mj-carousel-arrows,
+            .mj-carousel noinput .mj-carousel-thumbnails {
+                display: none !important;
+            }
+
+            [owa] .mj-carousel-thumbnail {
+                display: none !important;
+            }
+
+            @media screen yahoo {
+
+                .mj-carousel-icons-cell,
+                .mj-carousel-previous-icons,
+                .mj-carousel-next-icons {
+                    display: none !important;
+                }
+
+                .mj-carousel-radio-1:checked+*+*+.mj-carousel-content .mj-carousel-thumbnail-1 {
+                    border-color: transparent;
+                }
+            }
+
+
+            @media screen and (max-width: 599px) {
+                .mj-carousel-next img,
+                .mj-carousel-previous img,
+                .mj-carousel-image img {
+                    width: 100% !important;
+                    height: auto !important;
+                }
+
+                .mj-carousel-icons-cell {
+                    width: 8.33333% !important;
+                }
+
+                .mj-carousel-icons-cell + td {
+                    width: 83.33333% !important;
+                }
+
+                .carousel-fallback img {height: auto !important;}
+            }
+
+
+            [style*="KiaM"] {
+                font-family: 'KiaM', Arial, sans-serif !important
+            }
+
+            * strong, * h1, * h2, * h3, * h4 {
+                font-weight: bold;
+            }
+
+            .image-on-desktop {
+                display: block !important;
+                max-height: none !important;
+            }
+
+            .image-on-mobile {
+                display: none !important;
+                max-height: 0 !important;
+                overflow: hidden !important;
+            }
+
+
+            @media screen and (max-width: 599px) {
+                .image-on-desktop {
+                    display: none !important;
+                    max-height: 0 !important;
+                    overflow: hidden !important;
+                }
+    
+                .image-on-mobile {
+                    display: block !important;
+                    max-height: none !important;
+                }
+            }
+
+
+            @media (prefers-color-scheme: dark ) {
+    
+                /* Shows Dark Mode-Only Content, Like Images */
+                .dark-images { display:block !important; width: auto !important; overflow: visible !important; float: none !important; max-height:inherit !important; max-width:inherit !important; line-height: auto !important; margin-top:0px !important; visibility:inherit !important; }
+    
+                /* Hides Light Mode-Only Content, Like Images */
+                .image-light { display:none; display:none !important; }
+                
+                *, p, td, span, div, h1, h2 {color: #ffffff !important;}
+                .darkmode {background-color: #000000 !important;}
+                .dark-font {color: #000000 !important;}
+                .font--blue {color: #3e8fcd !important;}
+            }
+
+            /* Shows Dark Mode-Only Content, Like Images */
+            [data-ogsc] .dark-images { display:block !important; width: auto !important; overflow: visible !important; float: none !important; max-height:inherit !important; max-width:inherit !important; line-height: auto !important; margin-top:0px !important; visibility:inherit !important; }
+
+            /* Hides Light Mode-Only Content, Like Images */
+            [data-ogsc] .image-light { display:none; display:none !important; }
+            
+            [data-ogsc] *, [data-ogsc] p, [data-ogsc] td, [data-ogsc] span, [data-ogsc] div, [data-ogsc] h1, [data-ogsc] h2 {color: #ffffff !important;}
+            [data-ogsc] .darkmode {background-color: #000000 !important;}
+            [data-ogsc] .dark-font {color: #000000 !important;}
+            [data-ogsc] .font--blue {color: #3e8fcd !important;}
+            
+        </style>
+    </head>
+    
+    <body style="margin:0; padding:0; text-align: left" bgcolor="#e6e7e9" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+        <span class="preheader" style="display: none !important; visibility: hidden; opacity: 0; color: transparent; height: 0; width: 0;">Join us at the EV6 Electric Experience</span>
+        
+        <table role="presentation" border="0" width="100%" height="100%" cellpadding="0" cellspacing="0" bgcolor="#e6e7e9" style="">
+            <tr>
+                <td class="content" align="center" style="font-family: Arial, sans-serif, KiaM">
+                    <table role="presentation" class="wrapper darkmode" border="0" width="600" height="100%" cellpadding="0" cellspacing="0" bgcolor="#000000">
+                        <tr>
+                            <td class="content" align="center" width="600">
+                                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                    <tr>
+                                        <td style="padding-top: 7px; padding-bottom: 7px; padding-left: 7px; padding-right: 7px; background-color: #000000; color: #ffffff; text-align: right; font-size: 11px; line-height: 1;" align="right">
+                                            <span style="color: #ffffff;">
+                                                If you cannot see this email <a href="http://ems.kia.europe-crm.net/viewPage.jsp?merge_query=%MERGE_QUERY%" style="color: #ffffff; font-size: 11px; line-height: 1;">click here</a>
+                                            </span>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="content" align="center" width="600">
+                                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                    <tr>
+                                        <td style="padding: 0;"
+                                        >
+
+                                            <a href="https://www.kia.com/uk/?cmpid=eml|1234EV6_CPL_ALL_2021-04-01_2021-12-31|marketing|banner|body|june_2021" target="_blank">
+                                                <img src="http://img.europe-crm.net/KMUK/VCCP/2021/april/EV6-countdown/logo-kia-white-desktop@2x.png" style="display: block; border: 0; max-width: 100%; height: auto;" width="600" alt="" class="image-on-desktop image-light"
+                                                height="100"
+                                                >
+
+                                                <!--[if !mso]><! -->
+                                                <img src="http://img.europe-crm.net/KMUK/VCCP/2021/april/EV6-countdown/logo-kia-white-mobile@2x.png" style="display: none; border: 0; max-height: 0; overflow: hidden;" width="100%" alt="" class="image-on-mobile image-light">
+
+                                                <div class="dark-images" style="display:none; overflow:hidden; width:0; max-height:0; max-width:0; line-height:0; visibility:hidden;">
+                                                    <img src="http://img.europe-crm.net/KMUK/VCCP/2021/april/EV6-countdown/logo-kia-white-desktop@2x.png" style="display: block; border: 0; max-width: 100%; height: auto;" width="600" alt="" class="image-on-desktop"
+                                                    height="100"
+                                                    >
+                                                    <img src="http://img.europe-crm.net/KMUK/VCCP/2021/april/EV6-countdown/logo-kia-white-mobile@2x.png" style="display: none; border: 0; max-height: 0; overflow: hidden;" width="100%" alt="" class="image-on-mobile" >
+                                                </div>
+                                                <!--<![endif]-->
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td class="content" align="center" width="600">
+                                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                    <tr>
+                                        <td style="padding: 0;"
+                                        >
+
+                                            <a href="https://www.kia.com/uk/new-cars/ev6/?cmpid=eml|1234EV6_CPL_ALL_2021-04-01_2021-12-31|marketing|banner|body|june_2021" target="_blank">
+                                                <img src="http://img.europe-crm.net/KMUK/VCCP/2021/june/roadshow/EV6_HeaderAnimation_TopCrop.gif" style="display: block; border: 0; max-width: 100%; height: auto;" width="600" alt="" class="image-on-desktop image-light"
+                                                height="380"
+                                                >
+
+                                                <!--[if !mso]><! -->
+                                                <img src="http://img.europe-crm.net/KMUK/VCCP/2021/june/roadshow/EV6_HeaderAnimation_TopCrop.gif" style="display: none; border: 0; max-height: 0; overflow: hidden;" width="100%" alt="" class="image-on-mobile image-light">
+
+                                                <div class="dark-images" style="display:none; overflow:hidden; width:0; max-height:0; max-width:0; line-height:0; visibility:hidden;">
+                                                    <img src="http://img.europe-crm.net/KMUK/VCCP/2021/june/roadshow/EV6_HeaderAnimation_TopCrop.gif" style="display: block; border: 0; max-width: 100%; height: auto;" width="600" alt="" class="image-on-desktop"
+                                                    height="380"
+                                                    >
+                                                    <img src="http://img.europe-crm.net/KMUK/VCCP/2021/june/roadshow/EV6_HeaderAnimation_TopCrop.gif" style="display: none; border: 0; max-height: 0; overflow: hidden;" width="100%" alt="" class="image-on-mobile" >
+                                                </div>
+                                                <!--<![endif]-->
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="content" align="center" width="600">
+                                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                    <tr>
+                                        <td style="padding: 0;"
+                                        >
+
+                                            <a href="https://www.kia.com/uk/new-cars/ev6/?cmpid=eml|1234EV6_CPL_ALL_2021-04-01_2021-12-31|marketing|banner|body|june_2021" target="_blank">
+                                                <img src="http://img.europe-crm.net/KMUK/VCCP/2021/june/roadshow/EV6_HeaderAnimation_BottomCrop.gif" style="display: block; border: 0; max-width: 100%; height: auto;" width="600" alt="" class="image-on-desktop image-light"
+                                                height="220"
+                                                >
+
+                                                <!--[if !mso]><! -->
+                                                <img src="http://img.europe-crm.net/KMUK/VCCP/2021/june/roadshow/EV6_HeaderAnimation_BottomCrop.gif" style="display: none; border: 0; max-height: 0; overflow: hidden;" width="100%" alt="" class="image-on-mobile image-light">
+
+                                                <div class="dark-images" style="display:none; overflow:hidden; width:0; max-height:0; max-width:0; line-height:0; visibility:hidden;">
+                                                    <img src="http://img.europe-crm.net/KMUK/VCCP/2021/june/roadshow/EV6_HeaderAnimation_BottomCrop.gif" style="display: block; border: 0; max-width: 100%; height: auto;" width="600" alt="" class="image-on-desktop"
+                                                    height="220"
+                                                    >
+                                                    <img src="http://img.europe-crm.net/KMUK/VCCP/2021/june/roadshow/EV6_HeaderAnimation_BottomCrop.gif" style="display: none; border: 0; max-height: 0; overflow: hidden;" width="100%" alt="" class="image-on-mobile" >
+                                                </div>
+                                                <!--<![endif]-->
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="content" align="center" width="600">
+                                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                    <tr>
+                                        <td style="padding-top: 14px; padding-bottom: 14px; padding-left: 40px; padding-right: 40px;" class="content__in"
+                                        bgcolor="#000000"
+                                        >
+                                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                                <tr>
+                                                    <td style="font-size: 16px; line-height: 28px; text-align: left; mso-line-height-rule: exactly; color: #ffffff;" align="left">
+                                                        As one of the first customers to order an EV6, we are pleased to provide you the exclusive opportunity to experience this revolutionary vehicle up close and in person, before the general public. <br><br>
+                                    The EV6 Electric Experience event is coming to your local dealership: this is your chance to explore its cutting-edge design, groundbreaking technology and find out more about the brand-new Electric-Global Modular Platform (E-GMP). <br><br>
+                                    Reserve your place today as a VIP customer during this exclusive booking window.
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td class="content" align="center" width="600">
+                                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                    <tr>
+                                        <td style="padding-left: 50px; padding-right: 50px; padding-top: 24px; padding-bottom: 10px" class="content__in"
+                                            bgcolor="#000000"
+                                        >
+                                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                                <tr>
+                                                    <td style="padding-left: 10px; padding-right: 10px;" class="mobile-block mobile-paddingx-0" align="center">
+                                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0"
+                                                        >
+                                                        <tr>
+
+                                                            <td style="padding-top: 2px; padding-bottom: 2px; padding-left: 2px; padding-right: 2px; border-radius: 100px; background: #3e8fcd;" width="100%">
+                                                                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                                                    <tr>
+
+                                                                        <td style="padding-top: 18px; padding-bottom: 20px; padding-left: 48px; padding-right: 48px; border-radius: 100px; background-color: #000000;  background-image: linear-gradient(#000000, #000000) !important; text-align: center" align="center" width="100%">
+                                                                            <a href="https://www.kiaev6experience.co.uk?source=9de7443f-a6a4-4325-b674-505517734db2/?cmpid=eml|1234EV6_CPL_ALL_2021-04-01_2021-12-31|marketing|button|body|june_2021" target="_blank"  style="color: #3e8fcd; font-size: 22px; line-height: 22px; text-decoration: none" class="font--blue">BOOK NOW &rsaquo;</a>
+                                                                        </td>
+
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+
+                                                        </tr>
+                                                        <tr class="">
+                                                            <td height="12" style="height: 12px; font-size: 1px; line-height: 1px;">&nbsp;</td>
+                                                        </tr>
+                                                        </table>
+
+
+
+
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td class="content" align="center" width="600">
+                                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                    <tr>
+                                        <td style="padding: 0;"
+                                        >
+
+                                            <a href="https://www.kia.com/uk/new-cars/ev6/?cmpid=eml|1234EV6_CPL_ALL_2021-04-01_2021-12-31|marketing|banner|body|june_2021" target="_blank">
+                                                <img src="http://img.europe-crm.net/KMUK/VCCP/2021/june/roadshow/Image_front.jpg" style="display: block; border: 0; max-width: 100%; height: auto;" width="600" alt="" class="image-on-desktop image-light"
+                                                height="640"
+                                                >
+
+                                                <!--[if !mso]><! -->
+                                                <img src="http://img.europe-crm.net/KMUK/VCCP/2021/june/roadshow/Image_front.jpg" style="display: none; border: 0; max-height: 0; overflow: hidden;" width="100%" alt="" class="image-on-mobile image-light">
+
+                                                <div class="dark-images" style="display:none; overflow:hidden; width:0; max-height:0; max-width:0; line-height:0; visibility:hidden;">
+                                                    <img src="http://img.europe-crm.net/KMUK/VCCP/2021/june/roadshow/Image_front.jpg" style="display: block; border: 0; max-width: 100%; height: auto;" width="600" alt="" class="image-on-desktop"
+                                                    height="640"
+                                                    >
+                                                    <img src="http://img.europe-crm.net/KMUK/VCCP/2021/june/roadshow/Image_front.jpg" style="display: none; border: 0; max-height: 0; overflow: hidden;" width="100%" alt="" class="image-on-mobile" >
+                                                </div>
+                                                <!--<![endif]-->
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                            </td>
+                        </tr>
+    
+    
+                        <tr>
+                            <td class="content" align="center" width="600">
+                                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                    <tr>
+                                        <td style="padding: 0;"
+                                        >
+
+                                            <a href="https://www.kia.com/uk/new-cars/ev6/?cmpid=eml|1234EV6_CPL_ALL_2021-04-01_2021-12-31|marketing|banner|body|june_2021" target="_blank">
+                                                <img src="http://img.europe-crm.net/KMUK/VCCP/2021/june/roadshow/EV6_Stats.gif" style="display: block; border: 0; max-width: 100%; height: auto;" width="600" alt="" class="image-on-desktop image-light"
+                                                height="220"
+                                                >
+
+                                                <!--[if !mso]><! -->
+                                                <img src="http://img.europe-crm.net/KMUK/VCCP/2021/june/roadshow/EV6_Stats.gif" style="display: none; border: 0; max-height: 0; overflow: hidden;" width="100%" alt="" class="image-on-mobile image-light">
+
+                                                <div class="dark-images" style="display:none; overflow:hidden; width:0; max-height:0; max-width:0; line-height:0; visibility:hidden;">
+                                                    <img src="http://img.europe-crm.net/KMUK/VCCP/2021/june/roadshow/EV6_Stats.gif" style="display: block; border: 0; max-width: 100%; height: auto;" width="600" alt="" class="image-on-desktop"
+                                                    height="220"
+                                                    >
+                                                    <img src="http://img.europe-crm.net/KMUK/VCCP/2021/june/roadshow/EV6_Stats.gif" style="display: none; border: 0; max-height: 0; overflow: hidden;" width="100%" alt="" class="image-on-mobile" >
+                                                </div>
+                                                <!--<![endif]-->
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="content" align="center" width="600">
+                                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                    <tr>
+                                        <td style="padding: 0;"
+                                        >
+
+                                            <a href="https://www.kia.com/uk/new-cars/ev6/?cmpid=eml|1234EV6_CPL_ALL_2021-04-01_2021-12-31|marketing|banner|body|june_2021" target="_blank">
+                                                <img src="http://img.europe-crm.net/KMUK/VCCP/2021/june/roadshow/Image_back.jpg" style="display: block; border: 0; max-width: 100%; height: auto;" width="600" alt="" class="image-on-desktop image-light"
+                                                height="420"
+                                                >
+
+                                                <!--[if !mso]><! -->
+                                                <img src="http://img.europe-crm.net/KMUK/VCCP/2021/june/roadshow/Image_back.jpg" style="display: none; border: 0; max-height: 0; overflow: hidden;" width="100%" alt="" class="image-on-mobile image-light">
+
+                                                <div class="dark-images" style="display:none; overflow:hidden; width:0; max-height:0; max-width:0; line-height:0; visibility:hidden;">
+                                                    <img src="http://img.europe-crm.net/KMUK/VCCP/2021/june/roadshow/Image_back.jpg" style="display: block; border: 0; max-width: 100%; height: auto;" width="600" alt="" class="image-on-desktop"
+                                                    height="420"
+                                                    >
+                                                    <img src="http://img.europe-crm.net/KMUK/VCCP/2021/june/roadshow/Image_back.jpg" style="display: none; border: 0; max-height: 0; overflow: hidden;" width="100%" alt="" class="image-on-mobile" >
+                                                </div>
+                                                <!--<![endif]-->
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td class="content" align="center" width="600">
+                                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                    <tr>
+                                        <td style="padding-top: 24px; padding-bottom: 38px; padding-left: 20px; padding-right: 20px;" class="content__in"
+                                        bgcolor="#000000"
+                                        >
+                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                            <tr>
+                                                <td>
+                                                    <h2 style="font-size: 30px; line-height: 40px; text-align: center; mso-line-height-rule: exactly; color: #ffffff; padding: 0; margin: 0; font-weight: normal; text-transform: uppercase"><strong>Explore the EV6 range</strong></h2>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td class="content" align="center" width="600">
+                                <!--[if mso | IE]>
+                                <table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" >
+                                    <tr>
+                                        <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+                                            <v:rect style="width:600px;" xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false"><v:fill origin="0.5, 0" position="0.5, 0" src="http://img.europe-crm.net/KMUK/VCCP/2021/march/ev6/Backdrop_Centre.jpg" color="#000000" type="frame" /><v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0">
+                                <![endif]-->
+
+
+                                <div
+                                    style="background:#000000 url('http://img.europe-crm.net/KMUK/VCCP/2021/march/ev6/Backdrop_Centre.jpg') top center / 100% 100% no-repeat;margin:0px auto;max-width:600px;">
+                                    <div style="line-height:0;font-size:0;">
+                                        <table align="center" background="http://img.europe-crm.net/KMUK/VCCP/2021/march/ev6/Backdrop_Centre.jpg" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#000000 url('http://img.europe-crm.net/KMUK/VCCP/2021/march/ev6/Backdrop_Centre.jpg') top center / 100% 100% no-repeat;width:100%;">
+                                            <tbody>
+                                                <tr>
+                                                    <td style="direction:ltr;font-size:0px;padding:0;text-align:center;">
+                                                        <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+                                                        <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="600">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td style="vertical-align:top;padding:0 10px;">
+                                                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                                                                <tr>
+                                                                                    <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
+
+
+
+
+
+
+
+                                <!--[if !mso><!-->
+                                <div class="mj-carousel">
+                                    <input class="mj-carousel-radio mj-carousel-radio mj-carousel-radio-1" checked="checked" type="radio" name="mj-carousel-radio-ead76e493e86" id="mj-carousel-radio-1" style="display:none;mso-hide:all;">
+                                    <input class="mj-carousel-radio mj-carousel-radio mj-carousel-radio-2" type="radio" name="mj-carousel-radio-ead76e493e86" id="mj-carousel-radio-2" style="display:none;mso-hide:all;">
+                                    <input class="mj-carousel-radio mj-carousel-radio mj-carousel-radio-3" type="radio" name="mj-carousel-radio-ead76e493e86" id="mj-carousel-radio-3" style="display:none;mso-hide:all;">
+
+                                    <div class="mj-carousel-content mj-carousel-content" style="display:table;width:100%;table-layout:fixed;text-align:center;font-size:0px;">
+                                        <table style="caption-side:top;display:table-caption;table-layout:fixed;width:100%;" border="0" cell-padding="0" cell-spacing="0" width="100%" role="presentation" class="mj-carousel-main">
+                                            <tbody>
+                                                <tr>
+                                                    <td class="mj-carousel-icons-cell" style="font-size:0px;display:none;mso-hide:all;padding:0px;">
+                                                        <div class="mj-carousel-previous-icons" style="display:none;mso-hide:all;">
+                                                            <label for="mj-carousel-radio-1" class="mj-carousel-previous mj-carousel-previous-1">
+                                                                <img src="http://img.europe-crm.net/KMUK/VCCP/2021/march/ev6/BackdropLeft.png" alt="previous" style="display:block;width:31px;height:auto;" width="31">
+                                                            </label>
+                                                            <label for="mj-carousel-radio-2" class="mj-carousel-previous mj-carousel-previous-2">
+                                                                <img src="http://img.europe-crm.net/KMUK/VCCP/2021/march/ev6/BackdropLeft.png" alt="previous" style="display:block;width:31px;height:auto;" width="31">
+                                                            </label>
+                                                            <label for="mj-carousel-radio-3" class="mj-carousel-previous mj-carousel-previous-3">
+                                                                <img src="http://img.europe-crm.net/KMUK/VCCP/2021/march/ev6/BackdropLeft.png" alt="previous" style="display:block;width:31px;height:auto;" width="31">
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                    <td style="padding:0px;">
+                                                        <div class="mj-carousel-images">
+                                                            <div class="mj-carousel-image mj-carousel-image-1">
+                                                                <a href="https://www.kia.com/uk/new-cars/ev6/?cmpid=eml|1234EV6_CPL_ALL_2021-04-01_2021-12-31|marketing|banner|body|june_2021" rel="undefined" target="_blank">
+                                                                <img src="http://img.europe-crm.net/KMUK/VCCP/2021/march/ev6/EV6_Grey.png" style="border-radius:0;display:block;width:538px;max-width: 100%;height:auto;" width="538" border="0">
+                                                            </div>
+                                                            <div class="mj-carousel-image mj-carousel-image-2" style="display:none;mso-hide:all;">
+                                                                <a href="https://www.kia.com/uk/new-cars/ev6/?cmpid=eml|1234EV6_CPL_ALL_2021-04-01_2021-12-31|marketing|banner|body|june_2021" rel="undefined" target="_blank">
+                                                                <img src="http://img.europe-crm.net/KMUK/VCCP/2021/march/ev6/EV6_GT_Grey.png" style="border-radius:0;display:block;width:538px;max-width: 100%;height:auto;" width="538" border="0">
+                                                            </div>
+                                                            <div class="mj-carousel-image mj-carousel-image-3" style="display:none;mso-hide:all;">
+                                                                <a href="https://www.kia.com/uk/new-cars/ev6/?cmpid=eml|1234EV6_CPL_ALL_2021-04-01_2021-12-31|marketing|banner|body|june_2021" rel="undefined" target="_blank">
+                                                                <img src="http://img.europe-crm.net/KMUK/VCCP/2021/march/ev6/EV6_GTLine_Black.png" style="border-radius:0;display:block;width:538px;max-width: 100%;height:auto;" width="538" border="0">
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="mj-carousel-icons-cell" style="font-size:0px;display:none;mso-hide:all;padding:0px;">
+                                                        <div class="mj-carousel-next-icons" style="display:none;mso-hide:all;">
+                                                            <label for="mj-carousel-radio-1" class="mj-carousel-next mj-carousel-next-1">
+                                                                <img src="http://img.europe-crm.net/KMUK/VCCP/2021/march/ev6/BackdropRight.png" alt="next" style="display:block;width:31px;height:auto;" width="31">
+                                                            </label>
+                                                            <label for="mj-carousel-radio-2" class="mj-carousel-next mj-carousel-next-2">
+                                                                <img src="http://img.europe-crm.net/KMUK/VCCP/2021/march/ev6/BackdropRight.png" alt="next" style="display:block;width:31px;height:auto;" width="31">
+                                                            </label>
+                                                            <label for="mj-carousel-radio-3" class="mj-carousel-next mj-carousel-next-3">
+                                                                <img src="http://img.europe-crm.net/KMUK/VCCP/2021/march/ev6/BackdropRight.png" alt="next" style="display:block;width:31px;height:auto;" width="31">
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <!--<![endif]-->
+
+                                <!--[if mso]>
+                                <div class="mj-carousel-image mj-carousel-image-1 carousel-fallback" style="" >
+                                    <img src="http://img.europe-crm.net/KMUK/VCCP/2021/march/ev6/carousel-fallback.gif" style="border-radius:0;display:block;width:600px;max-width:100%;height:378px;" width="600" border="0" />
+                                </div>
+                                <![endif]-->
+
+
+
+
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                        <!--[if mso | IE]></td></tr></table><![endif]-->
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <!--[if mso | IE]></v:textbox></v:rect></td></tr></table><![endif]-->
+
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td class="content" align="center" width="600">
+                                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                    <tr>
+                                        <td style="padding: 0;"
+                                        >
+
+                                            <a href="https://www.kia.com/uk/owners/kia-promise/?cmpid=eml|1234EV6_CPL_ALL_2021-04-01_2021-12-31|marketing|banner|body|june_2021" target="_blank">
+                                                <img src="http://img.europe-crm.net/KMUK/VCCP/global//assets/kia-promises-white-black-bg@2x.png" style="display: block; border: 0; max-width: 100%; height: auto;" width="600" alt="Kia Promise" class="image-on-desktop image-light"
+                                                height="254"
+                                                >
+
+                                                <!--[if !mso]><! -->
+                                                <img src="http://img.europe-crm.net/KMUK/VCCP/global/assets/kia-promises-white-black-bg-m@2x.png" style="display: none; border: 0; max-height: 0; overflow: hidden;" width="100%" alt="Kia Promise" class="image-on-mobile image-light">
+
+                                                <div class="dark-images" style="display:none; overflow:hidden; width:0; max-height:0; max-width:0; line-height:0; visibility:hidden;">
+                                                    <img src="http://img.europe-crm.net/KMUK/VCCP/global/assets/kia-promises-white-black-bg@2x.png" style="display: block; border: 0; max-width: 100%; height: auto;" width="600" alt="Kia Promise" class="image-on-desktop"
+                                                    height="254"
+                                                    >
+                                                    <img src="http://img.europe-crm.net/KMUK/VCCP/global/assets/kia-promises-white-black-bg-m@2x.png" style="display: none; border: 0; max-height: 0; overflow: hidden;" width="100%" alt="Kia Promise" class="image-on-mobile" >
+                                                </div>
+                                                <!--<![endif]-->
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td class="content" align="center" width="600">
+                                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                    <tr>
+                                        <td class="content__in" style="padding-left: 30px; padding-right: 30px; padding-bottom: 10px; padding-top: 10px;"
+                                        bgcolor="#000000"
+                                        >
+                                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                                <tr>
+                                                    <td style="padding-top: 22px; padding-bottom: 22px">
+                                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                                            <tr>
+                                                                <td class="mobile-block footer-logo" style="padding-top: 5px; padding-bottom: 5px;">
+                                                                    <a href="http://www.kia.com/uk/?cmpid=eml|1234EV6_CPL_ALL_2021-04-01_2021-12-31|marketing|banner|footer|april_2021" target="_blank">
+                                                                        <img class="image-light" src="http://img.europe-crm.net/KMUK/VCCP/2021/march/ev6/kia-logo-footer-white-with-black-outline@2x.png" style="border: 0; height: auto;" width="282" alt="Kia logo">
+
+                                                                        <!--[if !mso]><! -->
+                                                                        <div class="dark-images" style="display:none; overflow:hidden; float:left; width:0; max-height:0; max-width:0; line-height:0; visibility:hidden;" align="left">
+                                                                            <img src="http://img.europe-crm.net/KMUK/VCCP/global/logo/kia-logo-footer-white@2x.png" width="282" alt="" style="border: 0; max-width: 100%;" border="0" />
+                                                                        </div>
+                                                                        <!--<![endif]-->
+                                                                    </a>
+                                                                </td>
+
+                                                                <td class="mobile-block social-icons" align="right" style="padding-top: 5px; padding-bottom: 5px;">
+                                                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0">
+                                                                        <tr>
+                                                                            <td style="padding-right: 10px;" class="social-icons__inner">
+                                                                                <table role="presentation" cellspacing="0" cellpadding="0" border="0">
+                                                                                    <tr>
+                                                                                        <td>
+                                                                                            <a href="https://www.linkedin.com/company/kia-motors-uk-ltd/?cmpid=eml|1234EV6_CPL_ALL_2021-04-01_2021-12-31|marketing|banner|footer|april_2021" target="_blank">
+                                                                                                <img src="http://img.europe-crm.net/KMUK/VCCP/global/social/white/linkedin@66px.png" style="display: block; border: 0;" width="33" alt="LinkedIn icon">
+                                                                                            </a>
+                                                                                        </td>
+
+                                                                                        <td style="padding-left: 11px;">
+                                                                                            <a href="https://www.facebook.com/kiamotorsuk/?cmpid=eml|1234EV6_CPL_ALL_2021-04-01_2021-12-31|marketing|banner|footer|april_2021" target="_blank">
+                                                                                                <img src="http://img.europe-crm.net/KMUK/VCCP/global/social/white/facebook@66px.png" style="display: block; border: 0;" width="33" alt="Facebook icon">
+                                                                                            </a>
+                                                                                        </td>
+
+                                                                                        <td style="padding-left: 11px;">
+                                                                                            <a href="https://twitter.com/kiauk/?cmpid=eml|1234EV6_CPL_ALL_2021-04-01_2021-12-31|marketing|banner|footer|april_2021" target="_blank">
+                                                                                                <img src="http://img.europe-crm.net/KMUK/VCCP/global/social/white/twitter@66px.png" style="display: block; border: 0;" width="33" alt="Twitter icon">
+                                                                                            </a>
+                                                                                        </td>
+
+                                                                                        <td style="padding-left: 11px;">
+                                                                                            <a href="https://www.instagram.com/kiamotorsuk/?cmpid=eml|1234EV6_CPL_ALL_2021-04-01_2021-12-31|marketing|banner|footer|april_2021" target="_blank">
+                                                                                                <img src="http://img.europe-crm.net/KMUK/VCCP/global/social/white/instagram@66px.png" style="display: block; border: 0;" width="33" alt="Instagram icon">
+                                                                                            </a>
+                                                                                        </td>
+
+                                                                                        <td style="padding-left: 11px;">
+                                                                                            <a href="https://www.youtube.com/c/kiamotorsuk/?cmpid=eml|1234EV6_CPL_ALL_2021-04-01_2021-12-31|marketing|banner|footer|april_2021" target="_blank">
+                                                                                                <img src="http://img.europe-crm.net/KMUK/VCCP/global/social/white/youtube@66px.png" style="display: block; border: 0;" width="33" alt="YouTube icon">
+                                                                                            </a>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td class="content" align="center" width="600">
+                                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                    <tr>
+                                        <td style="padding-top: 16px; padding-bottom: 36px; padding-left: 40px; padding-right: 40px;" class="content__in"
+                                        bgcolor="#000000"
+                                        >
+                                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                                <tr>
+                                                    <td style="font-size: 10px; line-height: 12px; text-align: left; mso-line-height-rule: exactly; color: #ffffff;" align="left">
+                                                        &copy; Kia UK Ltd 2021<br><br>
+                                    All information is correct at the time of issue and may be subject to change. <br><br>
+                                    Copyright 2021 Kia All Rights Reserved. This copyright is owned by Kia UK Limited.<br>Registered Office: Kia UK Limited, Walton Green, Walton-On-Thames, Surrey KT12 1FJ. <br><br>
+                                    All information (images, figures, etc.) may not be to UK specification. The figures for all electric range reflect the expected results under WLTP and are pending homologation prior to final confirmation. Charging speed and motor performance figures refer to Kia test results, final figures will be communicated at a later stage. 3.5sec. for 0-60mph is the expected acceleration performance for EV6 GT version based on the preliminary development target. <br><br>
+                                    If you would like to get in touch with your Kia dealer or contact us about a general enquiry, please <a href='https://www.kia.com/uk/contact-us/?cmpid=eml|1234EV6_CPL_ALL_2021-04-01_2021-12-31|marketing|link|footer|june_2021' style='text-decoration: underline; color: #ffffff;' target='_blank'>visit our website</a> to do so, where you can also view our <a href='https://www.kia.com/uk/Privacy/?cmpid=eml|1234EV6_CPL_ALL_2021-04-01_2021-12-31|marketing|link|footer|june_2021' style='text-decoration: underline; color: #ffffff;' target='_blank'>privacy policy</a>, <a href='https://www.kia.com/uk/utility/unsubscribe/?CampaignContactId=[Field: Camp Con Id]&cmpid=eml|1234EV6_CPL_ALL_2021-04-01_2021-12-31|marketing|link|footer|june_2021' style='text-decoration: underline; color: #ffffff;' target='_blank'>unsubscribe</a> and <a href='https://www.kia.com/uk/utility/manage-preferences/?CampaignContactId=[Field: Camp Con Id]&cmpid=eml|1234EV6_CPL_ALL_2021-04-01_2021-12-31|marketing|link|footer|june_2021' style='text-decoration: underline; color: #ffffff;' target='_blank'>manage your preferences</a> at any time. Please do not reply to this email directly as it is not manned. Please note it may take up to 3 working days to process your unsubscribe request.
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </body>
+
+</html>
